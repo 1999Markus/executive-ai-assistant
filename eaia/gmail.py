@@ -37,11 +37,11 @@ def get_credentials(
 ) -> Credentials:
     creds = None
     _SECRETS_DIR.mkdir(parents=True, exist_ok=True)
-    gmail_token = gmail_token or os.getenv("GMAIL_TOKEN")
+    gmail_token = gmail_token
     if gmail_token:
         with open(_TOKEN_PATH, "w") as token:
             token.write(gmail_token)
-    gmail_secret = gmail_secret or os.getenv("GMAIL_SECRET")
+    gmail_secret = gmail_secret
     if gmail_secret:
         with open(_SECRETS_PATH, "w") as secret:
             secret.write(gmail_secret)
