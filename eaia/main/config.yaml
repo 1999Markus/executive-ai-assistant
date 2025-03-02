@@ -27,6 +27,7 @@ triage_notify: |
   - Google docs that were shared with him (do NOT notify him on comments, just net new ones)
   - Emails that notify Markus about messages he did not attend to yet (LinkedIn, Teams, Slack)
   - Emails where there is a clear action item from Markus based on a previous conversation, like adding people to a slack channel or setting up a metting
+  - Emails that contain relevant organizational information for events, trips or programs Markus is part of. 
 triage_email: |
   - Emails from clients that explicitly ask Markus a question
   - Emails from clients where someone else has scheduled a meeting for Markus, and Markus has not already chimed in to express his excitement
